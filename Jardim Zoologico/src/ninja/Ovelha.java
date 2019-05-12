@@ -8,8 +8,8 @@ public class Ovelha extends Domestico {
 		return peso;
 	}
 
-	public Ovelha(String nome, String tipo, double peso) {
-		super(nome, tipo);
+	public Ovelha(String nome, double peso) {
+		super(nome, "Herbivoro");
 		this.peso = peso;
 	}
 

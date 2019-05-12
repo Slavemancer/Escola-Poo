@@ -4,8 +4,8 @@ public class Leão extends Selvagem {
 
 	private String continente;
 
-	public Leão(String nome, String meio, String continente) {
-		super(nome, meio);
+	public Leão(String nome, String continente) {
+		super(nome,"Terrestre");
 		this.continente = continente;
 	}
 

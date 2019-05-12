@@ -8,8 +8,8 @@ public class Cão extends Domestico {
 		return raça;
 	}
 
-	public Cão(String nome, String tipo, String raça) {
-		super(nome, tipo);
+	public Cão(String nome, String raça) {
+		super(nome, "Carnivoro");
 		this.raça = raça;
 	}
 
